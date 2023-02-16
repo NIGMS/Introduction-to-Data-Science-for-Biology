@@ -1,0 +1,18 @@
+[
+    {
+        "question": "Which of these statements is true?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "We use the features to predict the labels.",
+                "correct": true,
+                "feedback": "Correct. In our example, features include data like population and vaccination rate, while the label is COVID cases per 100k people."
+            },
+            {
+                "answer": "We use the labels to predict the features.",
+                "correct": false,
+                "feedback": "Labels are not used to predict features. Please try again."
+            }
+        ]
+    }
+]
