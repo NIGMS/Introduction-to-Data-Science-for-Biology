@@ -10,6 +10,8 @@ This module teaches you how to create a simple Decision Tree using a structured 
 
 - **4- Practice - Answer Key**: This notebook provides the answers and explanation to the previous Practice exercise notebook. Check this notebook only after you have tried to complete the previous exercise yourself. 
 
+This module will cost you about $1.00 to run, assuming you tear down all resources upon completion.
+
 ## Overview of Page Contents
 
 + [Getting Started](#gs)
