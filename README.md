@@ -67,24 +67,24 @@ Next you can type in the link of repository: "https://github.com/NIGMS/COVIDMach
 This module is geared towards beginners and does not require prior knowledge on a specific scientific discipline. The module is divided into three Jupyter notebooks as outlined at the beginning of this document. In addition to the notebooks mentioned, there are videos containing brief explanations about basic concepts in machine learning and what the code does in each step of the notebook. Below is an outline of the videos contained in each notebook with their respective links. These videos are already attached to the notebook.
 
 ### 1- Introduction To Machine Learning: Decision Trees (10 video clips)
-// links will be updated to You Tube ones eventually//
-- [Introduction Video by Lorena Benitez]()
-- [Objectives of Exercise]()
-- [Step 1: Importing necessary packages into Google Colab]()
-- [Step 2: Loading training data and making sure it looks correct]()
-- [Step 3: Separate the training dataset into features and labels]()
-- [Step 4: Create a decision tree object and train it]()
-- [Step 5: Visualize our trained decision tree]()
-- [Step 6: Make predictions using testing data with our trained decision tree]()
-- [Step 7: Let's see how our decision tree model performed]()
-- [Step 8: Let's try using our summer 2020 tree model to predict 2021 data]()
+
+- [Introduction Video by Lorena Benitez](https://youtu.be/e3tGQykFC5M)
+- [Objectives of Exercise](https://youtu.be/_kAjJ8rJwfU)
+- [Step 1: Importing necessary packages into Google Colab](https://youtu.be/jPIQbpdTkbM)
+- [Step 2: Loading training data and making sure it looks correct](https://youtu.be/z9dcLYg65uk)
+- [Step 3: Separate the training dataset into features and labels](https://youtu.be/qh8C0QRECWU)
+- [Step 4: Create a decision tree object and train it](https://youtu.be/M6gY_JywOys)
+- [Step 5: Visualize our trained decision tree](https://youtu.be/cFk6vmfU48w)
+- [Step 6: Make predictions using testing data with our trained decision tree](https://youtu.be/LtD93dB5JzU)
+- [Step 7: Let's see how our decision tree model performed](https://youtu.be/0VK4sLz2wrc)
+- [Step 8: Let's try using our summer 2020 tree model to predict 2021 data](https://youtu.be/2r3ZpwM6xDQ)
 
 ### 2-  (Optional) Quant. Comparison of 2020 DT Model Performance for (2020 vs 2021) Data
 
 ### 3-  Practice Exercise ( 1 video clip)
-- [Walkthrough Solution]()
+- [Walkthrough Solution](https://youtu.be/eHI4wMjSGuU)
 ### 4- Practice Exercise - Answer Key (1 video clip )
-- [Walkthrough Solution]()
+- [Walkthrough Solution](https://youtu.be/eHI4wMjSGuU)
 
 
 ## **Software Requirements**<a name="sof"></a>
