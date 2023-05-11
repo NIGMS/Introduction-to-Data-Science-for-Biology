@@ -1,6 +1,6 @@
 
 # San Francisco State University   
-## Introduction to machine learning for COVID predictions
+## Introduction to Machine Learning for COVID Predictions
 ---------------------------------
 This module teaches you how to create a simple Decision Tree using a structured dataset. In addition to the overview given in this README you will find the four Jupyter notebooks. The second notebook is optional.
 - **1- Intro to Machine Learning: Decision Trees**: This notebook provides a basic introduction to Machine Learning concepts, steps for creating and understanding a Decision Tree model, making predictions with it, and intuitively evaluating its performance. 
