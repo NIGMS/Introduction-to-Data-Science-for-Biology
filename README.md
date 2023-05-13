@@ -56,7 +56,7 @@ Next you can type in the link of repository: "https://github.com/NIGMS/COVIDMach
 
 This should download our repository, and the tutorial files inside, into a folder called `COVIDMachineLearningSFSU`. Double-click this folder now. Inside you will find all our tutorial files, which you can double-click and run.
 
-![](images/Clone-a-Repository.png)
+![how to clone a repo](images/Clone-a-Repository.png)
 
 
 **IMPORTANT NOTE** 
