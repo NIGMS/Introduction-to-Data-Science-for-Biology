@@ -1,4 +1,4 @@
-![course card](images/SFSU-course-card.png)
+![course card](images/SFSU-course-card-2.png)
 
 # San Francisco State University   
 ## Introduction to Machine Learning for COVID Predictions
