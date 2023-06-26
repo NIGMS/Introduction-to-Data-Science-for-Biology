@@ -53,9 +53,9 @@ After this it will take some time for the notebook to get started, please be pat
    
 Now that you have created your virtual machine, and are in the JupyterLab screen, you can run our tutorial files. But first you will need to download them.
 The easiest way to do this would be to clone the repository from NIGMS into your Vertex AI notebook. This can be done by using the `Git` menu in JupyterLab, and selecting the clone option. 
-Next you can type in the link of repository: "https://github.com/NIGMS/COVIDMachineLearningSFSU" (without quotation marks) and click `Clone`. Alternatively, in a new Terminal window you can type `git clone https://github.com/NIGMS/COVIDMachineLearningSFSU.git` to download all files from the repository.
+Next you can type in the link of repository: "https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology" (without quotation marks) and click `Clone`. Alternatively, in a new Terminal window you can type `git clone https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology.git` to download all files from the repository.
 
-This should download our repository, and the tutorial files inside, into a folder called `COVIDMachineLearningSFSU`. Double-click this folder now. Inside you will find all our tutorial files, which you can double-click and run.
+This should download our repository, and the tutorial files inside, into a folder called `Introduction-to-Data-Science-for-Biology`. Double-click this folder now. Inside you will find all our tutorial files, which you can double-click and run.
 
 ![how to clone a repo](images/Clone-a-Repository.png)
 
