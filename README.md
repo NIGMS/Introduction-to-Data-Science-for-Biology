@@ -31,23 +31,21 @@ Included is a tutorial in the form of Jupyter notebooks. The main purpose of the
 
 **2)** Please click on the link for general steps to create a [Vertex AI Notebook](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md).
 
-Choose the following settings for the new notebook created: 
 
-Create a New Notebook and make sure you choose the first option that says **Customize...** in the menu within Vertex AI Workbench, like in the example shown in the picture below. This should take you to a new menu with advanced options to customize your notebook.
+In your Vertex AI Workbench, click Create New. Make sure User-Managed Notebooks is highlighted, as shown in the screenshot below. 
 
-![GCP-New-notebook.png](images/GCP-New-notebook.png)
+![Create New user managed notebook](images/Create_new_notebook.png)
 
-   
-In the menu, make sure you input a unique notebook name. We suggest you use your own name initials such as in the example below (lm-tester). Then make sure you have the following configurations selected:
-![New-Notebook-config1.png](images/New-Notebook-config1.png)
-   
-Keep scrolling down and you will see the following options as well to configure:
-![New-Notebook-config2.png](images/New-Notebook-config2.png)
-   
-Choose **single user** and input the email you used to sign up to Google Cloud Console, as indicated make sure that the email is attached to a Google account:
-![New-Notebook-config3.png](images/New-Notebook-config3.png)
-   
-At the end of this menu, click on the **CREATE** button.
+In the new instance window, scroll down and select Advanced Options
+
+![Select Advanced Options](images/Advanced_options.png)
+
+In the Environment tab, select the Python3 environment. Make sure to click the Enable Idle Shutdown button in the Machine type tab as shown in the screenshot below. Finally, select n1-standard-4 in the Machine type tab.
+
+![Enable Idle Shutdown](images/Enable_auto_shutdown.png)
+
+Click on the **CREATE** button.   
+
    
 After this it will take some time for the notebook to get started, please be patient and wait for it to be ready. It will be ready when a small green circle with a white check appears next to it. Once this happens please click **OPEN JUPYTERLAB** located next to the notebook with the name you have created in the previous step, this should take you to a separate window tab.
    
