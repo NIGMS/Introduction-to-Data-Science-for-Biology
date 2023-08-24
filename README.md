@@ -29,42 +29,14 @@ Included is a tutorial in the form of Jupyter notebooks. The main purpose of the
 
 **1)** Please click on the link for steps to open your GCP project: [How to open your GCP Project](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/open_GCP_project.md).
 
-**2)** Please click on the link for general steps to create a [Vertex AI Notebook](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md).
+**2)** Follow the steps highlighted [here](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md) to create a new user-managed notebook in Vertex AI. Follow steps 1-8 and be especially careful to enable idle shutdown as highlighted in step 7. For this module you should select Debian 11 and Python 3 in the Environment tab in step 5. In step 6 in the Machine type tab, select n1-standard-4 from the dropdown box.
 
-Choose the following settings for the new notebook created: 
-
-Create a New Notebook and make sure you choose the first option that says **Customize...** in the menu within Vertex AI Workbench, like in the example shown in the picture below. This should take you to a new menu with advanced options to customize your notebook.
-
-![GCP-New-notebook.png](images/GCP-New-notebook.png)
-
-   
-In the menu, make sure you input a unique notebook name. We suggest you use your own name initials such as in the example below (lm-tester). Then make sure you have the following configurations selected:
-![New-Notebook-config1.png](images/New-Notebook-config1.png)
-   
-Keep scrolling down and you will see the following options as well to configure:
-![New-Notebook-config2.png](images/New-Notebook-config2.png)
-   
-Choose **single user** and input the email you used to sign up to Google Cloud Console, as indicated make sure that the email is attached to a Google account:
-![New-Notebook-config3.png](images/New-Notebook-config3.png)
-   
-At the end of this menu, click on the **CREATE** button.
-   
-After this it will take some time for the notebook to get started, please be patient and wait for it to be ready. It will be ready when a small green circle with a white check appears next to it. Once this happens please click **OPEN JUPYTERLAB** located next to the notebook with the name you have created in the previous step, this should take you to a separate window tab.
-   
-Now that you have created your virtual machine, and are in the JupyterLab screen, you can run our tutorial files. But first you will need to download them.
-The easiest way to do this would be to clone the repository from NIGMS into your Vertex AI notebook. This can be done by using the `Git` menu in JupyterLab, and selecting the clone option. 
-Next you can type in the link of repository: "https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology" (without quotation marks) and click `Clone`. Alternatively, in a new Terminal window you can type `git clone https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology.git` to download all files from the repository.
-
-This should download our repository, and the tutorial files inside, into a folder called `Introduction-to-Data-Science-for-Biology`. Double-click this folder now. Inside you will find all our tutorial files, which you can double-click and run.
-
-![how to clone a repo](images/Clone-a-Repository.png)
+**3)** Now you will need to download the tutorial files from GitHub. The easiest way to do this would be to clone the repository from NIGMS into your Vertex AI notebook. This can be done by using the `Git` menu in JupyterLab, and selecting the clone option. To clone this repository, use the Git command `git clone https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology.git` in the dropdown menu option in Jupyter notebook. Please make sure you only enter the link for the repository that you want to clone. There are other bioinformatics related learning modules available in the [NIGMS Repository](https://github.com/NIGMS). This will download our tutorial files into a folder called `Introduction-to-Data-Science-for-Biology`.
 
 
 **IMPORTANT NOTE** 
 
-Make sure that after you are done with the module, close the tab that appeared when you clicked **OPEN JUPYTERLAB**, then check the box next to the name of the notebook you created in step 3. Then click on **STOP** at the top of the Workbench menu. Wait and make sure that the icon next to your notebook is grayed out, like the example below.
-
-![shutdown-machine.png](images/Shutdown-machine.png)
+Make sure that after you are done with the module, close the tab that appeared when you clicked **OPEN JUPYTERLAB**, then check the box next to the name of the notebook you created in step 3. Then click on **STOP** at the top of the Workbench menu. Wait and make sure that the icon next to your notebook is grayed out.
 
 ## **Overview** 
 
