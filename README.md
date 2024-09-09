@@ -65,17 +65,17 @@ For ***Google Cloud Platform (GCP):***
     
 For ***Amazon Web Services (AWS):*** 
 1. Detailed instructions for setting up and using AWS for this module are provided within the AWS folder in the repository. 
-2. Follow the steps to create a new Jupyter notebook instance in Amaz, ensuring you select the appropriate configurations as outlined in the GCP instructions.
-3. Clone the repository from NIGMS into your Vertex AI notebook using the Git command: 
+2. Follow the steps to create a new Jupyter notebook instance in Amazon SageMaker, ensuring you select the appropriate configurations as outlined in the AWS instructions.
+3. Clone the repository from NIGMS into your SageMaker notebook using the Git command: 
     git clone https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology.git 
-    This will download our tutorial files into a folder called Introduction-to-Data-Science-for-Biology
-
-In order to get to this module from the Google Cloud Platform, you will need to have access to a Google Cloud Platform account, this module is located within Vertex AI Workbench. For more technical information about Google Cloud Platform please click on the following link: [NIH Cloud Lab README](https://github.com/STRIDES/NIHCloudLabGCP)
+    This will download our tutorial files into a folder called Introduction-to-Data-Science-for-Biology.
+    
+Please refer to the specific instructions within each folder (AWS or GCP) for more detailed ssetup guidance.
 
 
 ## **Software Requirements**
 
-Software requirements are satisfied by using a pre-made Google Cloud Platform environment Workbench Notebook. The notebook environment used is named **"Python 3 with Intel® MKL"** ; and it is listed during Step 3 for accessing our module. In addition all package requirements are installed by following the instructions Step 1 of the notebook **"Intro to Machine Learning Decision Trees".**
+Please refer to the specific software requirements within each folder (AWS or GCP) for more detailed setup guidance. In addition all package requirements are installed by following the instructions Step 1 of the notebook **"Intro to Machine Learning Decision Trees".**
     
     
 ## **Data** 
