@@ -23,7 +23,7 @@ This module teaches you how to create a simple Decision Tree using a structured 
 
 - **4- Practice - Answer Key**: This notebook provides the answers and explanation to the previous Practice exercise notebook. Check this notebook only after you have tried to complete the previous exercise yourself. 
 
-This module will cost you about ~$1.00~ to run, assuming you tear down all resources upon completion.
+This module will cost you about ~$1.00 to run, assuming you tear down all resources upon completion.
 
 
 ## Background 
@@ -73,7 +73,6 @@ Software requirements are satisfied by using a pre-made AWS environment SageMake
 
 Submodule 1 and Submodule 3 will download CSV files stored in an Amazon S3 bucket to the SageMaker notebook, then it will output additional CSV files that will be used optionally if students want to work on the (optional) Submodule 2. Below is a diagram that illustrates our workflow:~
 
-***NEEDS TO BE UPDATED TO AWS***
 ![Architecture-diagram.PNG](images/workflow.jpg)
 
 ## **Data** 
