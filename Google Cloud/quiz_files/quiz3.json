@@ -1,0 +1,28 @@
+[
+    {
+        "question": "Choose the correct statement.",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "We use the test data to create the training data and the training data to train the Decision Tree.",
+                "correct": false,
+                "feedback": "Training data is not derived from test data. Please try again."
+            },
+            {
+                "answer": "We use the test data to train the Decision Tree and the training data to determine how well the model performs.",
+                "correct": false,
+                "feedback": "Test data is not used to train the Decision Tree nor is training data used to evaluate the model. Please try again."
+            },
+            {
+                "answer": "We use the training data to train the Decision Tree and the test data to determine how well the model performs.",
+                "correct": true,
+                "feedback": "Correct. "
+            },
+            {
+                "answer": "We use the training data to create the test data and the test data to train the Decision Tree.",
+                "correct": false,
+                "feedback": "Test data is not derived from training data nor is test data used to train the Decision Tree. Please try again."
+            }
+        ]
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "question": "Which of the following statements is the best description of the project you are working on here?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "We are creating a model to better understand what determines the number of COVID cases in a county.",
+                "correct": false,
+                "feedback": "While we may gain insights into what is correlated with COVID cases in a county we will not know for certain what determines it. Please try again."
+            },
+            {
+                "answer": "We are creating a model to be able to predict the number of COVID cases in a county.",
+                "correct": true,
+                "feedback": "Correct. Given data such as population, vaccination rates, and other information, our Decision Tree will predict the number of COVID cases for that county."
+            },
+            {
+                "answer": "We are learning about the biology of COVID transmission.",
+                "correct": false,
+                "feedback": "There is no knowledge of disease transmission in this project. Please try again."
+            },
+            {
+                "answer": "We are trying to determine whether SF county had more or less COVID cases than LA county.",
+                "correct": false,
+                "feedback": "We can verify this from the datasets themselves but this is not our aim in this project. Please try again."
+            }
+        ]
+    }
+]
