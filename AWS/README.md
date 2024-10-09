@@ -71,7 +71,7 @@ Software requirements are satisfied by using a pre-made AWS environment SageMake
     
 ## **Architecture Design**
 
-Submodule 1 and Submodule 3 will download CSV files stored in an Amazon S3 bucket to the SageMaker notebook, then it will output additional CSV files that will be used optionally if students want to work on the (optional) Submodule 2. Below is a diagram that illustrates our workflow:~
+Submodule 1 and Submodule 3 will download CSV files stored in an Amazon S3 bucket to the SageMaker notebook, then it will output additional CSV files that will be used optionally if students want to work on the (optional) Submodule 2. Below is a diagram that illustrates our workflow:
 
 ![Architecture-diagram.PNG](images/workflow.jpg)
 
