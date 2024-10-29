@@ -61,15 +61,16 @@ Included is a tutorial in the form of Jupyter notebooks. The main purpose of the
 
 **3)** Now you will need to download the tutorial files from GitHub. The easiest way to do this would be to clone the repository from NIGMS into your Vertex AI notebook. This can be done by using the `Git` menu in JupyterLab, and selecting the clone option. To clone this repository, use the Git command `git clone https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology.git` in the dropdown menu option in Jupyter notebook. Please make sure you only enter the link for the repository that you want to clone. There are other bioinformatics related learning modules available in the [NIGMS Repository](https://github.com/NIGMS). This will download our tutorial files into a folder called `Introduction-to-Data-Science-for-Biology`.
 
+**3.1)** (Alternative Method) If any menus do not work as described in step 3 above, this is an alternative method to achieve the same result: [New Terminal How-to](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateNewTerminalConsoleJupyterLab.md)
+
 **IMPORTANT NOTE** 
 
-Make sure that after you are done with the module, close the tab that appeared when you clicked **OPEN JUPYTERLAB**, then check the box next to the name of the notebook you created in [step 3](https://github.com/STRIDES/NIHCloudLabGCP/blob/main/docs/vertexai.md#:~:text=Click%20Create%20New-,Select,-Advanced%20Options%20at). Then click on **STOP** at the top of the Workbench menu. Wait and make sure that the icon next to your notebook is grayed out.
+Make sure that after you are done with the module, close the tab that appeared when you clicked **OPEN JUPYTERLAB**, then check the box next to the name of the notebook you created in [step 3](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateVertexAINotebooks.md#:~:text=Select%20Advanced%20Options%20at%20the%20bottom%20of%20the%20New%20Instance). Then click on **STOP** at the top of the Workbench menu. Wait and make sure that the icon next to your notebook is grayed out.
 
 ## **Software Requirements**
 
 Software requirements are satisfied by using a pre-made Google Cloud Platform environment Workbench Notebook. The notebook environment used is named **"Python 3 with Intel® MKL"** ; and it is listed during Step 3 for accessing our module. Software requirements are described in notebook **"Intro to Machine Learning Decision Trees"** step 1. 
 
-    
 ## **Architecture Design**
 
 Submodule 1 and Submodule 3 will download CSV files stored in a Google Cloud Storage bucket to the Workbench notebook, then it will output additional CSV files that will be used optionally if students want to work on the (optional) Submodule 2. Below is a diagram that illustrates our workflow:
