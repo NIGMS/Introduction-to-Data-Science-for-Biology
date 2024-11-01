@@ -75,7 +75,7 @@ Software requirements are satisfied by using a pre-made Google Cloud Platform en
 
 Submodule 1 and Submodule 3 will download CSV files stored in a Google Cloud Storage bucket to the Workbench notebook, then it will output additional CSV files that will be used optionally if students want to work on the (optional) Submodule 2. Below is a diagram that illustrates our workflow:
 
-![Architecture-diagram.PNG](images/Architecture-diagram.PNG)
+![Architecture-diagram.PNG](images/Architecture-diagram.svg)
 
 ## **Data** 
 All original data from this module was originally sourced from the following sites: 
