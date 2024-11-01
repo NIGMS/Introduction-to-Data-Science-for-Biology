@@ -61,7 +61,7 @@ Included is a tutorial in the form of Jupyter notebooks. The main purpose of the
 
 **3)** Now you will need to download the tutorial files from GitHub. The easiest way to do this would be to clone the repository from NIGMS into your Vertex AI notebook. This can be done by using the `Git` menu in JupyterLab, and selecting the clone option. To clone this repository, use the Git command `git clone https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology.git` in the dropdown menu option in Jupyter notebook. Please make sure you only enter the link for the repository that you want to clone. There are other bioinformatics related learning modules available in the [NIGMS Repository](https://github.com/NIGMS). This will download our tutorial files into a folder called `Introduction-to-Data-Science-for-Biology`.
 
-**3.1)** (Alternative Method) If any menus do not work as described in step 3 above, this is an alternative method to achieve the same result: [New Terminal How-to](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateNewTerminalConsoleJupyterLab.md)
+**3.1)** (Alternative Method) If any menus do not work as described in step 3 above, use [this method to open a new terminal](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateNewTerminalConsoleJupyterLab.md), then clone the repo with `git clone https://github.com/NIGMS/Introduction-to-Data-Science-for-Biology.git`
 
 **IMPORTANT NOTE** 
 
