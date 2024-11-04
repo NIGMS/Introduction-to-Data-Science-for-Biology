@@ -62,7 +62,7 @@ Included is a tutorial in the form of Jupyter notebooks. The main purpose of the
 
 **IMPORTANT NOTE** 
 
-Make sure that after you are done with the module, close the tab that appeared when you clicked **OPEN JUPYTERLAB**, then check the box next to the name of the notebook you created in [step 3](https://github.com/NIGMS/NIGMS-Sandbox/blob/AWS%26GCP/docs/HowToCreateAWSSagemakerNotebooks.md#:~:text=Click%20Create%20notebook%20instance%3A). Then click on **STOP** at the top of the Workbench menu. Wait and make sure that the icon next to your notebook is grayed out.
+Make sure that after you are done with the module, close the tab that appeared when you clicked **OPEN JUPYTERLAB**, then check the box next to the name of the notebook you created in [step 3](https://github.com/NIGMS/NIGMS-Sandbox/blob/main/docs/HowToCreateAWSSagemakerNotebooks.md). Then click on **STOP** at the top of the Workbench menu. Wait and make sure that the icon next to your notebook is grayed out.
 
 ## **Software Requirements**
 
