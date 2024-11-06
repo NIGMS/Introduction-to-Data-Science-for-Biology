@@ -84,7 +84,7 @@ All original data from this module was originally sourced from the following sit
 
 - [COVID cases data (California Health and Human Services Agency)](https://data.chhs.ca.gov/dataset/covid-19-time-series-metrics-by-county-and-state/resource/046cdd2b-31e5-4d34-9ed3-b48cdbc4be7a)
 - [COVID vaccination data (Los Angeles Times)](https://github.com/datadesk/california-coronavirus-data)
-- [Unemployment data (California Employment Development Dept.)](https://data.edd.ca.gov/Labor-Force-and-Unemployment-Rates/Local-Area-Unemployment-StatisticsdecisionLAUS-/e6gw-gvii)
+- [Unemployment data (California Employment Development Dept.)](https://labormarketinfo.edd.ca.gov/data/unemployment-and-labor-force.html)
 - [Election data (Harvard University)](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ)
 
 
