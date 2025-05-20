@@ -100,3 +100,22 @@ Text and materials are licensed under a Creative Commons CC-BY-NC-SA license. Th
 ![Creative commons license](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+### Gemini (Optional)
+
+Generative is available in the form of Gemini if you would like to use it there. To run it, please reference Module 1 - Intro to Machine Learning Decision Trees, or run the following code. 
+
+```!pip install -q google-generativeai google-cloud-secret-manager
+!pip install -q git+https://github.com/NIGMS/NIGMS-Sandbox-Repository-Template.git#subdirectory=llm_integrations
+!pip install -q ipywidgets
+
+import sys
+import os
+util_path = os.path.join(os.getcwd(), 'util')
+if util_path not in sys.path:
+    sys.path.append(util_path)
+
+from gemini import run_gemini_widget, create_gemini_chat_widget 
+from IPython.display import display
+
+run_gemini_widget()
