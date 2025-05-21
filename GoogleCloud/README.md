@@ -103,7 +103,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 ### Gemini (Optional)
 
-Generative AI is available for this tutorial in the form of Gemini if you would like to use it. To run it, please reference Module 1 - Intro to Machine Learning Decision Trees, or run the following code. 
+Generative AI is available for this tutorial in the form of Gemini if you would like to use it. To run it, please reference Module 1 - Intro to Machine Learning Decision Trees, or run the following code within a submodule notebook.
 
 ```!pip install -q google-generativeai google-cloud-secret-manager
 !pip install -q git+https://github.com/NIGMS/NIGMS-Sandbox-Repository-Template.git#subdirectory=llm_integrations
