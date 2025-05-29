@@ -98,3 +98,20 @@ Text and materials are licensed under a Creative Commons CC-BY-NC-SA license. Th
 ![Creative commons license](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+## Bedrock (Optional)
+
+Generative AI is available for this tutorial if you would like to use it. To run it, please reference Submodule 1, or run the following code within a submodule notebook.
+
+```!pip install -q ipywidgets
+import sys
+import os
+util_path = os.path.join(os.getcwd(), 'util')
+if util_path not in sys.path:
+    sys.path.append(util_path)
+
+# Import the display_widgets function from your Python file
+from genai import display_widgets
+
+# Call the function to display the widgets
+display_widgets()
